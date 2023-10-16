@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/scary-horror.gif);
+    background-position: center;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+main {
+    height: calc(100vh - 130px);
+    display: flex;
+    color: white;
+    font-family: "Creepster", cursive;
+    letter-spacing: 2px;
+}
+
+.main-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+footer {
+    max-width: 1200px;
+    padding: 40px 0;
+    color: white;
+}
+
+.col-md-12 ul {
+    padding: 0;
+    display: flex;
+}
+
+footer li {
+    margin: auto;
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    float: right;
+    font-family: "Creepster", cursive;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+footer a img {
+    width: 48px;
+}
